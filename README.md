@@ -1,4 +1,4 @@
-# 🔒 Password Manager App
+![Simulator Screenshot - iPhone 15 Pro - 2024-07-20 at 11 07 48](https://github.com/user-attachments/assets/ce883133-62b9-48ea-b72e-55face92d501)![Simulator Screenshot - iPhone 15 Pro - 2024-07-20 at 11 07 48](https://github.com/user-attachments/assets/262557a4-e22f-4010-ae28-fbe0f2356377)# 🔒 Password Manager App
 
 This application securely stores your app credentials locally using multi-layer encryption. It allows you to lock the app with your phone's authentication functionality, ensuring that only you can access your stored credentials.
 
@@ -28,17 +28,6 @@ This application securely stores your app credentials locally using multi-layer 
 - **Strong Encryption**: Uses best-in-class encryption frameworks and unique primary keys to prevent unauthorized access.
 - **Convenience**: Easily manage and access your crucial credentials without compromising security.
 - **Peace of Mind**: Secure your sensitive information with both local encryption and mobile authentication.
-
-## 📷 Screenshots
-
-<!-- Horizontal Images -->
-<p float="left">
-  <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/3cad7637-d29c-4cd4-b77a-b72835a641c2" width="400" />
-  <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/a3926b0c-767e-4a23-ace4-326648fd1b3d" width="400" /> 
-  <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/8391dba6-9c9c-459d-8e2e-a9fc96edc55e" width="400" />
-  <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/d29099f5-1421-4b79-9ae8-f0209dd687d4" width="400" />
-  <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/e8512f43-d5d6-4610-a89e-2285d683715a" width="400" />
-</p>
 
 ---
 
