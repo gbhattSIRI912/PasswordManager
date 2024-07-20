@@ -21,6 +21,6 @@ struct PasswordManagerProjectApp: App {
                 AuthenticationView(isAuthenticated: $isAuthenticated)
             }
         }
-    }
+    } 
 }
  
