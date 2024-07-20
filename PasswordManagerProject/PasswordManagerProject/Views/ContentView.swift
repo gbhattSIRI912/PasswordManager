@@ -15,7 +15,7 @@ struct ContentView: View {
     @State private var selectedItem: PasswordManage?
     @FetchRequest(sortDescriptors: []) private var passwordManagerList: FetchedResults<PasswordManage>
     
-    init() {
+    init() { 
         let coloredAppearance = UINavigationBarAppearance()
         coloredAppearance.configureWithOpaqueBackground()
         coloredAppearance.backgroundColor = UIColor.App_Colors.bgColor

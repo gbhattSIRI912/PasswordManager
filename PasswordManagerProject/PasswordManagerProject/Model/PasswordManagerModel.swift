@@ -20,4 +20,4 @@ class PasswordManagerModel: NSObject, ObservableObject {
         super.init()
         container.loadPersistentStores { _, _ in }
     }
-}
+} 

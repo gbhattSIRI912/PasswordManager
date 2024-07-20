@@ -42,5 +42,5 @@ struct SecureInputView: View {
 
 #Preview {
     SecureInputView("", text: .constant(""))
-}
+} 
 

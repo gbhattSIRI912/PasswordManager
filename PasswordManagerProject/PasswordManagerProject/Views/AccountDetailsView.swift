@@ -19,7 +19,7 @@ struct AccountDetailsView: View {
     @State private var isAlert = false
     @State private var isShowingToast = false
     @Environment(\.managedObjectContext) var viewContext
-    var completion: (PasswordManage) -> Void
+    var completion: (PasswordManage) -> Void 
     
     //MARK: Life Cycle
     var body: some View {
@@ -169,4 +169,4 @@ struct AccountDetailsView: View {
             }
         }
     }
-}
+} 

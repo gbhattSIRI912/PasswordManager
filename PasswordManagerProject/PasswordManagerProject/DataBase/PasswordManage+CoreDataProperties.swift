@@ -23,7 +23,7 @@ extension PasswordManage {
     @NSManaged public var userPsw: String?
 
 }
-
+ 
 extension PasswordManage : Identifiable {
 
 }

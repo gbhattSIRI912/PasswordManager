@@ -179,5 +179,5 @@ struct NewAccountView: View {
 
 #Preview {
     NewAccountView(isPresented: .constant(true))
-}
+} 
 
