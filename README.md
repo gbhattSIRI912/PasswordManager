@@ -1,4 +1,7 @@
-![Simulator Screenshot - iPhone 15 Pro - 2024-07-20 at 11 07 48](https://github.com/user-attachments/assets/ce883133-62b9-48ea-b72e-55face92d501)![Simulator Screenshot - iPhone 15 Pro - 2024-07-20 at 11 07 48](https://github.com/user-attachments/assets/262557a4-e22f-4010-ae28-fbe0f2356377)# 🔒 Password Manager App
+![Simulator Screenshot - iPhone 15 Pro - 2024-07-20 at 11 07 48](https://github.com/user-attachments/assets/ce883133-62b9-48ea-b72e-55face92d501)![Simulator Screenshot - iPhone 15 Pro - 2024-07-20 at 11 07 48](https://github.com/user-attachments/assets/262557a4-e22f-4010-ae28-fbe0f2356377)# ![Simulator Screenshot - iPhone 15 Pro - 2024-07-20 at 11 07 55](https://github.com/user-attachments/assets/6d726e17-604d-4c9a-88f0-478a4dac2736) ![Simulator Screenshot - iPhone 15 Pro - 2024-07-20 at 11 08 00](https://github.com/user-attachments/assets/e8aa5346-2e49-4446-819e-9595c70353ef) ![Simulator Screenshot - iPhone 15 Pro - 2024-07-20 at 10 20 49](https://github.com/user-attachments/assets/3793782b-7851-4a3b-a16c-4ccd6ba7d97c) 
+
+
+🔒 Password Manager App
 
 This application securely stores your app credentials locally using multi-layer encryption. It allows you to lock the app with your phone's authentication functionality, ensuring that only you can access your stored credentials.
 
