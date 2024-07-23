@@ -80,7 +80,7 @@
 		A2C6A0AE2C4B747F00BA3FAF /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		A2C6A0AF2C4B747F00BA3FAF /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		A2C6A0B02C4B747F00BA3FAF /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
-		A2C6A0C52C4B749600BA3FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A2C6A0C52C4B749600BA3FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2C6A0C72C4B77D700BA3FAF /* PasswordManage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordManage.xcdatamodel; sourceTree = "<group>"; };
 		A2C6A0C92C4B78AF00BA3FAF /* PasswordManage+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordManage+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A2C6A0CA2C4B78AF00BA3FAF /* PasswordManage+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordManage+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -549,7 +549,7 @@
 			);
 			currentVersion = A2C6A0C72C4B77D700BA3FAF /* PasswordManage.xcdatamodel */;
 			name = PasswordManage.xcdatamodeld;
-			path = /Users/gauravbhatt/Desktop/PasswordManagerProject/PasswordManagerProject/DataBase/PasswordManage.xcdatamodeld;
+			path = ../../../../PasswordManagerProject/PasswordManagerProject/DataBase/PasswordManage.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
