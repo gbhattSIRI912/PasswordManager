@@ -114,7 +114,7 @@ struct NewAccountView: View {
             if let passwordDetail = passwordDetail {
                 passwordDetailContext = passwordDetail
                 accountName = passwordDetail.accountType ?? ""
-                email = passwordDetail.userid ?? ""
+                email = passwordDetail.userId ?? ""
                 if let data = Data(base64Encoded: (passwordDetail.userPsw ?? "")) {
                     password = (passwordDetail.userPsw ?? "").decryptPassword(psw: data, secretKey: SymmetricKey(data: (passwordDetail.symetricKey ?? Data())))
                 }
@@ -160,7 +160,7 @@ struct NewAccountView: View {
             passwordDetailContext?.id = "\(UUID())"
         }
         passwordDetailContext?.accountType = accountName
-        passwordDetailContext?.userid = email
+        passwordDetailContext?.userId = email
         passwordDetailContext?.userPsw = password.encryptPassword()
         passwordDetailContext?.symetricKey = secretKey.withUnsafeBytes { Data($0) }
         

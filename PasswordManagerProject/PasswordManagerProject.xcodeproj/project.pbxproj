@@ -43,7 +43,6 @@
 		A2C6A0C82C4B77D700BA3FAF /* PasswordManage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0C62C4B77D700BA3FAF /* PasswordManage.xcdatamodeld */; };
 		A2C6A0CB2C4B78AF00BA3FAF /* PasswordManage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0C92C4B78AF00BA3FAF /* PasswordManage+CoreDataClass.swift */; };
 		A2C6A0CC2C4B78AF00BA3FAF /* PasswordManage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0CA2C4B78AF00BA3FAF /* PasswordManage+CoreDataProperties.swift */; };
-		A2C6A0CD2C4FF47400BA3FAF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2C6A0C52C4B749600BA3FAF /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -308,7 +307,6 @@
 				A2C6A0C42C4B747F00BA3FAF /* Poppins-ThinItalic.ttf in Resources */,
 				A2C6A0682C4B6EDF00BA3FAF /* Assets.xcassets in Resources */,
 				A2C6A0C12C4B747F00BA3FAF /* Poppins-SemiBold.ttf in Resources */,
-				A2C6A0CD2C4FF47400BA3FAF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
