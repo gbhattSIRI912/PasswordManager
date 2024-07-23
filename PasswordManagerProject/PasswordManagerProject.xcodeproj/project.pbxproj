@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2C023242C500DA400EED292 /* PasswordManage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2C023222C500DA400EED292 /* PasswordManage.xcdatamodeld */; };
 		A2C6A0642C4B6EDE00BA3FAF /* PasswordManagerProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0632C4B6EDE00BA3FAF /* PasswordManagerProjectApp.swift */; };
 		A2C6A0662C4B6EDE00BA3FAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0652C4B6EDE00BA3FAF /* ContentView.swift */; };
 		A2C6A0682C4B6EDF00BA3FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C6A0672C4B6EDF00BA3FAF /* Assets.xcassets */; };
@@ -46,7 +45,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A2C023232C500DA400EED292 /* PasswordManage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordManage.xcdatamodel; sourceTree = "<group>"; };
 		A2C6A0602C4B6EDE00BA3FAF /* PasswordManagerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManagerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C6A0632C4B6EDE00BA3FAF /* PasswordManagerProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerProjectApp.swift; sourceTree = "<group>"; };
 		A2C6A0652C4B6EDE00BA3FAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -157,7 +155,6 @@
 		A2C6A0812C4B6FD900BA3FAF /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
-				A2C023222C500DA400EED292 /* PasswordManage.xcdatamodeld */,
 				A2C6A0C92C4B78AF00BA3FAF /* PasswordManage+CoreDataClass.swift */,
 				A2C6A0CA2C4B78AF00BA3FAF /* PasswordManage+CoreDataProperties.swift */,
 			);
@@ -332,7 +329,6 @@
 				A2C6A0662C4B6EDE00BA3FAF /* ContentView.swift in Sources */,
 				A2C6A0642C4B6EDE00BA3FAF /* PasswordManagerProjectApp.swift in Sources */,
 				A2C6A0952C4B728200BA3FAF /* Color+Extension.swift in Sources */,
-				A2C023242C500DA400EED292 /* PasswordManage.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,20 +536,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A2C023222C500DA400EED292 /* PasswordManage.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A2C023232C500DA400EED292 /* PasswordManage.xcdatamodel */,
-			);
-			currentVersion = A2C023232C500DA400EED292 /* PasswordManage.xcdatamodel */;
-			name = PasswordManage.xcdatamodeld;
-			path = /Users/gauravbhatt/Desktop/test/PasswordManagerProject/PasswordManagerProject/DataBase/PasswordManage.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A2C6A0582C4B6EDE00BA3FAF /* Project object */;
 }
