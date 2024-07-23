@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2C023192C50027700EED292 /* PasswordManage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2C023172C50027700EED292 /* PasswordManage.xcdatamodeld */; };
 		A2C6A0642C4B6EDE00BA3FAF /* PasswordManagerProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0632C4B6EDE00BA3FAF /* PasswordManagerProjectApp.swift */; };
 		A2C6A0662C4B6EDE00BA3FAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0652C4B6EDE00BA3FAF /* ContentView.swift */; };
 		A2C6A0682C4B6EDF00BA3FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C6A0672C4B6EDF00BA3FAF /* Assets.xcassets */; };
@@ -40,12 +41,12 @@
 		A2C6A0C22C4B747F00BA3FAF /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2C6A0AE2C4B747F00BA3FAF /* Poppins-SemiBoldItalic.ttf */; };
 		A2C6A0C32C4B747F00BA3FAF /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2C6A0AF2C4B747F00BA3FAF /* Poppins-Thin.ttf */; };
 		A2C6A0C42C4B747F00BA3FAF /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2C6A0B02C4B747F00BA3FAF /* Poppins-ThinItalic.ttf */; };
-		A2C6A0C82C4B77D700BA3FAF /* PasswordManage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0C62C4B77D700BA3FAF /* PasswordManage.xcdatamodeld */; };
 		A2C6A0CB2C4B78AF00BA3FAF /* PasswordManage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0C92C4B78AF00BA3FAF /* PasswordManage+CoreDataClass.swift */; };
 		A2C6A0CC2C4B78AF00BA3FAF /* PasswordManage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0CA2C4B78AF00BA3FAF /* PasswordManage+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2C023182C50027700EED292 /* PasswordManage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordManage.xcdatamodel; sourceTree = "<group>"; };
 		A2C6A0602C4B6EDE00BA3FAF /* PasswordManagerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManagerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C6A0632C4B6EDE00BA3FAF /* PasswordManagerProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerProjectApp.swift; sourceTree = "<group>"; };
 		A2C6A0652C4B6EDE00BA3FAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		A2C6A0AF2C4B747F00BA3FAF /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		A2C6A0B02C4B747F00BA3FAF /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		A2C6A0C52C4B749600BA3FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2C6A0C72C4B77D700BA3FAF /* PasswordManage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordManage.xcdatamodel; sourceTree = "<group>"; };
 		A2C6A0C92C4B78AF00BA3FAF /* PasswordManage+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordManage+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A2C6A0CA2C4B78AF00BA3FAF /* PasswordManage+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordManage+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,7 +157,7 @@
 		A2C6A0812C4B6FD900BA3FAF /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
-				A2C6A0C62C4B77D700BA3FAF /* PasswordManage.xcdatamodeld */,
+				A2C023172C50027700EED292 /* PasswordManage.xcdatamodeld */,
 				A2C6A0C92C4B78AF00BA3FAF /* PasswordManage+CoreDataClass.swift */,
 				A2C6A0CA2C4B78AF00BA3FAF /* PasswordManage+CoreDataProperties.swift */,
 			);
@@ -322,6 +322,7 @@
 				A2C6A0CB2C4B78AF00BA3FAF /* PasswordManage+CoreDataClass.swift in Sources */,
 				A2C6A0CC2C4B78AF00BA3FAF /* PasswordManage+CoreDataProperties.swift in Sources */,
 				A2C6A08C2C4B70EA00BA3FAF /* SecureInputView.swift in Sources */,
+				A2C023192C50027700EED292 /* PasswordManage.xcdatamodeld in Sources */,
 				A2C6A0922C4B717F00BA3FAF /* PasswordManagerModel.swift in Sources */,
 				A2C6A0882C4B70A400BA3FAF /* NewAccountView.swift in Sources */,
 				A2C6A0862C4B707E00BA3FAF /* AccountDetailsView.swift in Sources */,
@@ -330,7 +331,6 @@
 				A2C6A08A2C4B70C700BA3FAF /* PasswordRow.swift in Sources */,
 				A2C6A0842C4B705300BA3FAF /* AuthenticationView.swift in Sources */,
 				A2C6A0662C4B6EDE00BA3FAF /* ContentView.swift in Sources */,
-				A2C6A0C82C4B77D700BA3FAF /* PasswordManage.xcdatamodeld in Sources */,
 				A2C6A0642C4B6EDE00BA3FAF /* PasswordManagerProjectApp.swift in Sources */,
 				A2C6A0952C4B728200BA3FAF /* Color+Extension.swift in Sources */,
 			);
@@ -542,14 +542,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A2C6A0C62C4B77D700BA3FAF /* PasswordManage.xcdatamodeld */ = {
+		A2C023172C50027700EED292 /* PasswordManage.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A2C6A0C72C4B77D700BA3FAF /* PasswordManage.xcdatamodel */,
+				A2C023182C50027700EED292 /* PasswordManage.xcdatamodel */,
 			);
-			currentVersion = A2C6A0C72C4B77D700BA3FAF /* PasswordManage.xcdatamodel */;
+			currentVersion = A2C023182C50027700EED292 /* PasswordManage.xcdatamodel */;
 			name = PasswordManage.xcdatamodeld;
-			path = ../../../../PasswordManagerProject/PasswordManagerProject/DataBase/PasswordManage.xcdatamodeld;
+			path = /Users/gauravbhatt/Desktop/Password/PasswordManagerProject/PasswordManagerProject/DataBase/PasswordManage.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
