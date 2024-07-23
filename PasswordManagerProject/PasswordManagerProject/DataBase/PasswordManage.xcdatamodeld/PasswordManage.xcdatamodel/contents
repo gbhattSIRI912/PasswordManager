@@ -4,7 +4,7 @@
         <attribute name="accountType" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="symetricKey" optional="YES" attributeType="Binary"/>
-        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="userid" optional="YES" attributeType="String"/>
         <attribute name="userPsw" optional="YES" attributeType="String"/>
     </entity>
 </model>
