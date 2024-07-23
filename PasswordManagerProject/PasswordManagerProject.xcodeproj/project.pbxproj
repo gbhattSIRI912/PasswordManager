@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2C023192C50027700EED292 /* PasswordManage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2C023172C50027700EED292 /* PasswordManage.xcdatamodeld */; };
+		A2C0231E2C5005E400EED292 /* PasswordManage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2C023172C50027700EED292 /* PasswordManage.xcdatamodeld */; };
 		A2C6A0642C4B6EDE00BA3FAF /* PasswordManagerProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0632C4B6EDE00BA3FAF /* PasswordManagerProjectApp.swift */; };
 		A2C6A0662C4B6EDE00BA3FAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A0652C4B6EDE00BA3FAF /* ContentView.swift */; };
 		A2C6A0682C4B6EDF00BA3FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C6A0672C4B6EDF00BA3FAF /* Assets.xcassets */; };
@@ -322,7 +322,6 @@
 				A2C6A0CB2C4B78AF00BA3FAF /* PasswordManage+CoreDataClass.swift in Sources */,
 				A2C6A0CC2C4B78AF00BA3FAF /* PasswordManage+CoreDataProperties.swift in Sources */,
 				A2C6A08C2C4B70EA00BA3FAF /* SecureInputView.swift in Sources */,
-				A2C023192C50027700EED292 /* PasswordManage.xcdatamodeld in Sources */,
 				A2C6A0922C4B717F00BA3FAF /* PasswordManagerModel.swift in Sources */,
 				A2C6A0882C4B70A400BA3FAF /* NewAccountView.swift in Sources */,
 				A2C6A0862C4B707E00BA3FAF /* AccountDetailsView.swift in Sources */,
@@ -333,6 +332,7 @@
 				A2C6A0662C4B6EDE00BA3FAF /* ContentView.swift in Sources */,
 				A2C6A0642C4B6EDE00BA3FAF /* PasswordManagerProjectApp.swift in Sources */,
 				A2C6A0952C4B728200BA3FAF /* Color+Extension.swift in Sources */,
+				A2C0231E2C5005E400EED292 /* PasswordManage.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
