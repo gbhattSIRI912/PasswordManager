@@ -130,7 +130,7 @@ struct AccountDetailsView: View {
             .clipShape(RoundedCornerShape(corners: [.topLeft, .topRight], radius: 25))
         }.onAppear(perform: {
             if let passwordDetail = passwordDetail {
-                accountName = passwordDetail.accounttype ?? ""
+                accountName = passwordDetail.accountType ?? ""
                 email = passwordDetail.userid ?? ""
                 if let data = Data(base64Encoded: (passwordDetail.userPsw ?? "")) {
                     password = (passwordDetail.userPsw ?? "").decryptPassword(psw: data, secretKey: SymmetricKey(data: (passwordDetail.symetricKey ?? Data())))
