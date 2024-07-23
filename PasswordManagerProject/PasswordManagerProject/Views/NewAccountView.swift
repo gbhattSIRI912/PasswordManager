@@ -113,8 +113,8 @@ struct NewAccountView: View {
         .onAppear(perform: {
             if let passwordDetail = passwordDetail {
                 passwordDetailContext = passwordDetail
-                accountName = passwordDetail.accountType ?? ""
-                email = passwordDetail.userId ?? ""
+                accountName = passwordDetail.accounttype ?? ""
+                email = passwordDetail.userid ?? ""
                 if let data = Data(base64Encoded: (passwordDetail.userPsw ?? "")) {
                     password = (passwordDetail.userPsw ?? "").decryptPassword(psw: data, secretKey: SymmetricKey(data: (passwordDetail.symetricKey ?? Data())))
                 }
@@ -123,7 +123,7 @@ struct NewAccountView: View {
         .alert(isPresented: $isAlert) {
             if (self.msg == "This account type already exist do you want to update them?") {
                 Alert(title: Text("Alert"), message: Text(self.msg), primaryButton: .destructive(Text("Yes"), action: {
-                    if let index = dataListArray.firstIndex(where: {($0.accountType ?? "").lowercased() == accountName.lowercased()}) {
+                    if let index = dataListArray.firstIndex(where: {($0.accounttype ?? "").lowercased() == accountName.lowercased()}) {
                         passwordDetailContext = dataListArray[index]
                         saveUpdateData()
                     }
@@ -147,7 +147,7 @@ struct NewAccountView: View {
             return "Please enter password"
         } else if !password.isValid() {
             return "Please enter password at least 7 characters, one uppercase letter and one number"
-        } else if dataListArray.contains(where: {($0.accountType ?? "").lowercased() == accountName.lowercased()}) && (passwordDetail == nil) {
+        } else if dataListArray.contains(where: {($0.accounttype ?? "").lowercased() == accountName.lowercased()}) && (passwordDetail == nil) {
             return "This account type already exist do you want to update them?"
         }
         return nil
@@ -159,8 +159,8 @@ struct NewAccountView: View {
             passwordDetailContext = PasswordManage(context: self.viewContext)
             passwordDetailContext?.id = "\(UUID())"
         }
-        passwordDetailContext?.accountType = accountName
-        passwordDetailContext?.userId = email
+        passwordDetailContext?.accounttype = accountName
+        passwordDetailContext?.userid = email
         passwordDetailContext?.userPsw = password.encryptPassword()
         passwordDetailContext?.symetricKey = secretKey.withUnsafeBytes { Data($0) }
         

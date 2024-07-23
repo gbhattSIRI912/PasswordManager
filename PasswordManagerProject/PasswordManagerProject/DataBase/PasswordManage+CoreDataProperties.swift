@@ -16,10 +16,10 @@ extension PasswordManage {
         return NSFetchRequest<PasswordManage>(entityName: "PasswordManage")
     }
 
-    @NSManaged public var accountType: String?
+    @NSManaged public var accounttype: String?
     @NSManaged public var id: String?
     @NSManaged public var symetricKey: Data?
-    @NSManaged public var userId: String?
+    @NSManaged public var userid: String?
     @NSManaged public var userPsw: String?
 
 }

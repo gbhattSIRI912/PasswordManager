@@ -37,7 +37,7 @@ struct ContentView: View {
                     Divider()
                     if (passwordManagerList.count != 0) {
                         ForEach(passwordManagerList, id: \.self) { detail in
-                            PasswordRow(name: detail.accountType ?? "")
+                            PasswordRow(name: detail.accounttype ?? "")
                                 .onTapGesture {
                                     selectedItem = detail
                                     isPresentingDetailAccountSheet = true
