@@ -12,4 +12,4 @@ import CoreData
 @objc(PasswordManage)
 public class PasswordManage: NSManagedObject {
 
-} 
+}  
